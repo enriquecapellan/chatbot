@@ -37,6 +37,10 @@ body {
     background: #2E2E2E !important;
 } */
 
+.desktop-closed-message-avatar {
+    background: rgb(186 179 179 / 47%);
+}
+
 svg path {
     fill: #FFF;
 }

@@ -19,9 +19,4 @@ class Account extends Model
     {
         return $this->hasOne(Currency::class, 'id', 'currency_id');
     }
-    
-
 }
-
-
-

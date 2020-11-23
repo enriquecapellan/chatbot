@@ -10,6 +10,7 @@
     </head>
     <body>
         <div class="container">
+            <h1 class="title">Bienvenido</h1>
             <div class="content">
                 <div class="logo">
                     <img src="https://videobeet-technologies.com/images/icon/icona1.gif" alt="Chatbot icon">

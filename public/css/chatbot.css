@@ -23,6 +23,7 @@ body {
 
 .logo img {
     border-radius: 60px;
+    width: 300px;
 }
 
 .links a {

@@ -15,30 +15,25 @@ class WelcomeConversation extends Conversation
      */
     public function askQuestion()
     {
-        $question = Question::create("¿Qué marca de Smart TV deseas consultar?")
+        $question = Question::create("¿Elige la marca de Smart TV que deseas consultar?")
             ->fallback('Lo siento, no sé como responderte')
             ->callbackId('ask_about_option')
             ->addButtons([
                 Button::create('Samsung')->value('samsung'),
-                Button::create('LG')->value('lg'),
-                Button::create('TCL')->value('tcl'),
+                Button::create('Sony')->value('sony'),
             ]);
 
         return $this->ask($question, function ( Answer $answer ) {
             switch ($answer->getValue()) {
                 case 'samsung':
                     $this->bot->startConversation( new SamsungConversation() );
-                break;
-                case 'lg':
-                    $this->bot->startConversation( new LgConversation() );
-                break;
-                case 'tcl':
-                    $this->bot->startConversation( new TclConversation() );
-                break;
-                
+                    break;
+                case 'sony':
+                    $this->bot->startConversation( new SonyConversation() );
+                    break;            
                 default:
                     $this->askQuestion();
-                break;
+                    break;
             }
         });
     }

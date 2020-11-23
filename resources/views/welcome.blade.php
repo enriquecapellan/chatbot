@@ -21,8 +21,8 @@
         <script>
             var botmanWidget = {
                 frameEndpoint: '/botman/chat',
-                title: 'Chatbot - Smart TV Troubleshooting',
-                introMessage: 'Hola, soy Cape Chat, estoy aquí para ayudarte a configurar tu Smart TV. Para mas informacion escribe <b>opciones</b>. <br />José Capellán (19-0821)',
+                title: 'Smart TV Troubleshooting',
+                introMessage: 'Hola, soy Cape Chat, estoy aquí para ayudarte a configurar tu Smart TV. Para mas informacion la palabra escribe <b>opciones</b>. <br />José Capellán (19-0821)',
                 mainColor: '#0069c0',
                 bubbleBackground: '#2E2E2E'
             };

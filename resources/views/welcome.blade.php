@@ -12,7 +12,7 @@
         <div class="container">
             <div class="content">
                 <div class="logo">
-                    <img src="https://media.giphy.com/media/S60CrN9iMxFlyp7uM8/giphy.gif" alt="Chatbot icon">
+                    <img src="https://videobeet-technologies.com/images/icon/icona1.gif" alt="Chatbot icon">
                 </div>
             </div>
         </div>

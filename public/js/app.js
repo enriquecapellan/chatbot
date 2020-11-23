@@ -52019,7 +52019,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }, [_c('img', {
       staticClass: "ChatLog__avatar",
       attrs: {
-        "src": "/logo.png"
+        "src": "/logo.gif"
       }
     }), _vm._v(" "), _c('p', {
       staticClass: "ChatLog__message"

@@ -22,7 +22,7 @@
                 frameEndpoint: '/botman/chat',
                 title: 'Chatbot - Smart TV Troubleshooting',
                 introMessage: 'Hola, soy Chatman y te brindaré soluciones para tu Smart TV. Para mas informacion escribe <b>opciones</b>. Hecho con el corazón por Victor Manuel (19-0749)',
-                mainColor: '#2AFEF3',
+                mainColor: '#0069c0',
                 bubbleBackground: '#2E2E2E'
             };
         </script>
